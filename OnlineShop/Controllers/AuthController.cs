@@ -13,21 +13,23 @@ namespace OnlineShop.Web.Controllers
     public class AuthController : ControllerBase
     {
         private readonly UserService userService;
+        private readonly TwilioSmsService twilioSmsService;
 
-        public AuthController(UserService userService)
+        public AuthController(UserService userService, TwilioSmsService twilioSmsService)
         {
             this.userService = userService;
+            this.twilioSmsService = twilioSmsService;
         }
 
         [HttpPost]
-        public async Task<IActionResult> Auth(string phoneNumber)
+        public async Task<IActionResult> Auth(string phoneNumber, string code)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest();
             }
 
-            var token = await userService.Authenticate(phoneNumber);
+            var token = await userService.Authenticate(phoneNumber, code);
 
             if (String.IsNullOrEmpty(token))
             {
@@ -37,22 +39,17 @@ namespace OnlineShop.Web.Controllers
             return Ok(new { token });
         }
 
-        [HttpPost]
-        public async Task<IActionResult> Registrate(string fullName, string phoneNumber)
+        [HttpGet]
+        public async Task<IActionResult> SendCode(string phoneNumber)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest();
-            }
+            var code = new Random().Next(1000, 9999).ToString();
 
-            var token = await userService.Registrate(fullName, phoneNumber);
+            await twilioSmsService.SendVerificationCode(phoneNumber, code);
 
-            if (String.IsNullOrEmpty(token))
-            {
-                return Unauthorized();
-            }
+            await userService.SaveCodeToUser(phoneNumber, code);
 
-            return Ok(new { token });
+            return Ok();
         }
+
     }
 }

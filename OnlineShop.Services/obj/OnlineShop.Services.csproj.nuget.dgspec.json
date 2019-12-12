@@ -1,34 +1,40 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\гороховв\\source\\repos\\OnlineShop\\OnlineShop.Services\\OnlineShop.Services.csproj": {}
+    "C:\\Users\\Vlad\\Source\\Repos\\VladislavG123\\OnlineShopTemplate\\OnlineShop.Services\\OnlineShop.Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\гороховв\\source\\repos\\OnlineShop\\OnlineShop.DataAccess\\OnlineShop.DataAccess.csproj": {
+    "C:\\Users\\Vlad\\Source\\Repos\\VladislavG123\\OnlineShopTemplate\\OnlineShop.DataAccess\\OnlineShop.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\гороховв\\source\\repos\\OnlineShop\\OnlineShop.DataAccess\\OnlineShop.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Vlad\\Source\\Repos\\VladislavG123\\OnlineShopTemplate\\OnlineShop.DataAccess\\OnlineShop.DataAccess.csproj",
         "projectName": "OnlineShop.DataAccess",
-        "projectPath": "C:\\Users\\гороховв\\source\\repos\\OnlineShop\\OnlineShop.DataAccess\\OnlineShop.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\гороховв\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\гороховв\\source\\repos\\OnlineShop\\OnlineShop.DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\Vlad\\Source\\Repos\\VladislavG123\\OnlineShopTemplate\\OnlineShop.DataAccess\\OnlineShop.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Vlad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vlad\\Source\\Repos\\VladislavG123\\OnlineShopTemplate\\OnlineShop.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\гороховв\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Vlad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.timpotze.nl/api/v2/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\гороховв\\source\\repos\\OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj": {
-                "projectPath": "C:\\Users\\гороховв\\source\\repos\\OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj"
+              "C:\\Users\\Vlad\\Source\\Repos\\VladislavG123\\OnlineShopTemplate\\OnlineShop.Domain\\OnlineShop.Domain.csproj": {
+                "projectPath": "C:\\Users\\Vlad\\Source\\Repos\\VladislavG123\\OnlineShopTemplate\\OnlineShop.Domain\\OnlineShop.Domain.csproj"
               }
             }
           }
@@ -76,24 +82,30 @@
         }
       }
     },
-    "C:\\Users\\гороховв\\source\\repos\\OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj": {
+    "C:\\Users\\Vlad\\Source\\Repos\\VladislavG123\\OnlineShopTemplate\\OnlineShop.Domain\\OnlineShop.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\гороховв\\source\\repos\\OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Vlad\\Source\\Repos\\VladislavG123\\OnlineShopTemplate\\OnlineShop.Domain\\OnlineShop.Domain.csproj",
         "projectName": "OnlineShop.Domain",
-        "projectPath": "C:\\Users\\гороховв\\source\\repos\\OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj",
-        "packagesPath": "C:\\Users\\гороховв\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\гороховв\\source\\repos\\OnlineShop\\OnlineShop.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Vlad\\Source\\Repos\\VladislavG123\\OnlineShopTemplate\\OnlineShop.Domain\\OnlineShop.Domain.csproj",
+        "packagesPath": "C:\\Users\\Vlad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vlad\\Source\\Repos\\VladislavG123\\OnlineShopTemplate\\OnlineShop.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\гороховв\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Vlad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.timpotze.nl/api/v2/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -128,24 +140,30 @@
         }
       }
     },
-    "C:\\Users\\гороховв\\source\\repos\\OnlineShop\\OnlineShop.DTO\\OnlineShop.DTO.csproj": {
+    "C:\\Users\\Vlad\\Source\\Repos\\VladislavG123\\OnlineShopTemplate\\OnlineShop.DTO\\OnlineShop.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\гороховв\\source\\repos\\OnlineShop\\OnlineShop.DTO\\OnlineShop.DTO.csproj",
+        "projectUniqueName": "C:\\Users\\Vlad\\Source\\Repos\\VladislavG123\\OnlineShopTemplate\\OnlineShop.DTO\\OnlineShop.DTO.csproj",
         "projectName": "OnlineShop.DTO",
-        "projectPath": "C:\\Users\\гороховв\\source\\repos\\OnlineShop\\OnlineShop.DTO\\OnlineShop.DTO.csproj",
-        "packagesPath": "C:\\Users\\гороховв\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\гороховв\\source\\repos\\OnlineShop\\OnlineShop.DTO\\obj\\",
+        "projectPath": "C:\\Users\\Vlad\\Source\\Repos\\VladislavG123\\OnlineShopTemplate\\OnlineShop.DTO\\OnlineShop.DTO.csproj",
+        "packagesPath": "C:\\Users\\Vlad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vlad\\Source\\Repos\\VladislavG123\\OnlineShopTemplate\\OnlineShop.DTO\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\гороховв\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Vlad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.timpotze.nl/api/v2/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -180,24 +198,30 @@
         }
       }
     },
-    "C:\\Users\\гороховв\\source\\repos\\OnlineShop\\OnlineShop.Options\\OnlineShop.Options.csproj": {
+    "C:\\Users\\Vlad\\Source\\Repos\\VladislavG123\\OnlineShopTemplate\\OnlineShop.Options\\OnlineShop.Options.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\гороховв\\source\\repos\\OnlineShop\\OnlineShop.Options\\OnlineShop.Options.csproj",
+        "projectUniqueName": "C:\\Users\\Vlad\\Source\\Repos\\VladislavG123\\OnlineShopTemplate\\OnlineShop.Options\\OnlineShop.Options.csproj",
         "projectName": "OnlineShop.Options",
-        "projectPath": "C:\\Users\\гороховв\\source\\repos\\OnlineShop\\OnlineShop.Options\\OnlineShop.Options.csproj",
-        "packagesPath": "C:\\Users\\гороховв\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\гороховв\\source\\repos\\OnlineShop\\OnlineShop.Options\\obj\\",
+        "projectPath": "C:\\Users\\Vlad\\Source\\Repos\\VladislavG123\\OnlineShopTemplate\\OnlineShop.Options\\OnlineShop.Options.csproj",
+        "packagesPath": "C:\\Users\\Vlad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vlad\\Source\\Repos\\VladislavG123\\OnlineShopTemplate\\OnlineShop.Options\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\гороховв\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Vlad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.timpotze.nl/api/v2/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -232,37 +256,43 @@
         }
       }
     },
-    "C:\\Users\\гороховв\\source\\repos\\OnlineShop\\OnlineShop.Services\\OnlineShop.Services.csproj": {
+    "C:\\Users\\Vlad\\Source\\Repos\\VladislavG123\\OnlineShopTemplate\\OnlineShop.Services\\OnlineShop.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\гороховв\\source\\repos\\OnlineShop\\OnlineShop.Services\\OnlineShop.Services.csproj",
+        "projectUniqueName": "C:\\Users\\Vlad\\Source\\Repos\\VladislavG123\\OnlineShopTemplate\\OnlineShop.Services\\OnlineShop.Services.csproj",
         "projectName": "OnlineShop.Services",
-        "projectPath": "C:\\Users\\гороховв\\source\\repos\\OnlineShop\\OnlineShop.Services\\OnlineShop.Services.csproj",
-        "packagesPath": "C:\\Users\\гороховв\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\гороховв\\source\\repos\\OnlineShop\\OnlineShop.Services\\obj\\",
+        "projectPath": "C:\\Users\\Vlad\\Source\\Repos\\VladislavG123\\OnlineShopTemplate\\OnlineShop.Services\\OnlineShop.Services.csproj",
+        "packagesPath": "C:\\Users\\Vlad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vlad\\Source\\Repos\\VladislavG123\\OnlineShopTemplate\\OnlineShop.Services\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\гороховв\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Vlad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.timpotze.nl/api/v2/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\гороховв\\source\\repos\\OnlineShop\\OnlineShop.DataAccess\\OnlineShop.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\гороховв\\source\\repos\\OnlineShop\\OnlineShop.DataAccess\\OnlineShop.DataAccess.csproj"
+              "C:\\Users\\Vlad\\Source\\Repos\\VladislavG123\\OnlineShopTemplate\\OnlineShop.DataAccess\\OnlineShop.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Vlad\\Source\\Repos\\VladislavG123\\OnlineShopTemplate\\OnlineShop.DataAccess\\OnlineShop.DataAccess.csproj"
               },
-              "C:\\Users\\гороховв\\source\\repos\\OnlineShop\\OnlineShop.DTO\\OnlineShop.DTO.csproj": {
-                "projectPath": "C:\\Users\\гороховв\\source\\repos\\OnlineShop\\OnlineShop.DTO\\OnlineShop.DTO.csproj"
+              "C:\\Users\\Vlad\\Source\\Repos\\VladislavG123\\OnlineShopTemplate\\OnlineShop.DTO\\OnlineShop.DTO.csproj": {
+                "projectPath": "C:\\Users\\Vlad\\Source\\Repos\\VladislavG123\\OnlineShopTemplate\\OnlineShop.DTO\\OnlineShop.DTO.csproj"
               },
-              "C:\\Users\\гороховв\\source\\repos\\OnlineShop\\OnlineShop.Options\\OnlineShop.Options.csproj": {
-                "projectPath": "C:\\Users\\гороховв\\source\\repos\\OnlineShop\\OnlineShop.Options\\OnlineShop.Options.csproj"
+              "C:\\Users\\Vlad\\Source\\Repos\\VladislavG123\\OnlineShopTemplate\\OnlineShop.Options\\OnlineShop.Options.csproj": {
+                "projectPath": "C:\\Users\\Vlad\\Source\\Repos\\VladislavG123\\OnlineShopTemplate\\OnlineShop.Options\\OnlineShop.Options.csproj"
               }
             }
           }
