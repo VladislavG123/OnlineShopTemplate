@@ -32,7 +32,7 @@ namespace OnlineShop
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddTransient<UserService>();
-            services.AddTransient<ISmsService, TwilioSmsService>();
+            services.AddTransient<ISmsService, MobizoneSmsService>();
             services.AddDbContext<OnlineShopContext>(options => options.UseNpgsql(configuration.GetConnectionString("DeveloperDatabase")));
             
             //JWT

@@ -11,3 +11,16 @@ C:\Users\гороховв\source\repos\OnlineShop\OnlineShop.DataAccess\bin\Debu
 C:\Users\гороховв\source\repos\OnlineShop\OnlineShop.DataAccess\obj\Debug\netcoreapp3.0\OnlineShop.DataAccess.csproj.CopyComplete
 C:\Users\гороховв\source\repos\OnlineShop\OnlineShop.DataAccess\obj\Debug\netcoreapp3.0\OnlineShop.DataAccess.dll
 C:\Users\гороховв\source\repos\OnlineShop\OnlineShop.DataAccess\obj\Debug\netcoreapp3.0\OnlineShop.DataAccess.pdb
+C:\Users\Vlad\Source\Repos\VladislavG123\OnlineShopTemplate\OnlineShop.DataAccess\bin\Debug\netcoreapp3.0\OnlineShop.DataAccess.deps.json
+C:\Users\Vlad\Source\Repos\VladislavG123\OnlineShopTemplate\OnlineShop.DataAccess\bin\Debug\netcoreapp3.0\OnlineShop.DataAccess.runtimeconfig.json
+C:\Users\Vlad\Source\Repos\VladislavG123\OnlineShopTemplate\OnlineShop.DataAccess\bin\Debug\netcoreapp3.0\OnlineShop.DataAccess.runtimeconfig.dev.json
+C:\Users\Vlad\Source\Repos\VladislavG123\OnlineShopTemplate\OnlineShop.DataAccess\bin\Debug\netcoreapp3.0\OnlineShop.DataAccess.dll
+C:\Users\Vlad\Source\Repos\VladislavG123\OnlineShopTemplate\OnlineShop.DataAccess\bin\Debug\netcoreapp3.0\OnlineShop.DataAccess.pdb
+C:\Users\Vlad\Source\Repos\VladislavG123\OnlineShopTemplate\OnlineShop.DataAccess\bin\Debug\netcoreapp3.0\OnlineShop.Domain.dll
+C:\Users\Vlad\Source\Repos\VladislavG123\OnlineShopTemplate\OnlineShop.DataAccess\bin\Debug\netcoreapp3.0\OnlineShop.Domain.pdb
+C:\Users\Vlad\Source\Repos\VladislavG123\OnlineShopTemplate\OnlineShop.DataAccess\obj\Debug\netcoreapp3.0\OnlineShop.DataAccess.csprojAssemblyReference.cache
+C:\Users\Vlad\Source\Repos\VladislavG123\OnlineShopTemplate\OnlineShop.DataAccess\obj\Debug\netcoreapp3.0\OnlineShop.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Vlad\Source\Repos\VladislavG123\OnlineShopTemplate\OnlineShop.DataAccess\obj\Debug\netcoreapp3.0\OnlineShop.DataAccess.AssemblyInfo.cs
+C:\Users\Vlad\Source\Repos\VladislavG123\OnlineShopTemplate\OnlineShop.DataAccess\obj\Debug\netcoreapp3.0\OnlineShop.DataAccess.csproj.CopyComplete
+C:\Users\Vlad\Source\Repos\VladislavG123\OnlineShopTemplate\OnlineShop.DataAccess\obj\Debug\netcoreapp3.0\OnlineShop.DataAccess.dll
+C:\Users\Vlad\Source\Repos\VladislavG123\OnlineShopTemplate\OnlineShop.DataAccess\obj\Debug\netcoreapp3.0\OnlineShop.DataAccess.pdb

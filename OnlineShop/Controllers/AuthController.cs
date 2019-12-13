@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using OnlineShop.Services;
+using OnlineShop.Services.Interfaces;
 
 namespace OnlineShop.Web.Controllers
 {
@@ -13,9 +14,9 @@ namespace OnlineShop.Web.Controllers
     public class AuthController : ControllerBase
     {
         private readonly UserService userService;
-        private readonly TwilioSmsService twilioSmsService;
+        private readonly ISmsService twilioSmsService;
 
-        public AuthController(UserService userService, TwilioSmsService twilioSmsService)
+        public AuthController(UserService userService, ISmsService twilioSmsService)
         {
             this.userService = userService;
             this.twilioSmsService = twilioSmsService;

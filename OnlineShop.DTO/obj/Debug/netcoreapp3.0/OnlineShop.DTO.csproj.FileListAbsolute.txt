@@ -6,3 +6,11 @@ C:\Users\гороховв\source\repos\OnlineShop\OnlineShop.DTO\obj\Debug\netco
 C:\Users\гороховв\source\repos\OnlineShop\OnlineShop.DTO\obj\Debug\netcoreapp3.0\OnlineShop.DTO.AssemblyInfo.cs
 C:\Users\гороховв\source\repos\OnlineShop\OnlineShop.DTO\obj\Debug\netcoreapp3.0\OnlineShop.DTO.dll
 C:\Users\гороховв\source\repos\OnlineShop\OnlineShop.DTO\obj\Debug\netcoreapp3.0\OnlineShop.DTO.pdb
+C:\Users\Vlad\Source\Repos\VladislavG123\OnlineShopTemplate\OnlineShop.DTO\bin\Debug\netcoreapp3.0\OnlineShop.DTO.deps.json
+C:\Users\Vlad\Source\Repos\VladislavG123\OnlineShopTemplate\OnlineShop.DTO\bin\Debug\netcoreapp3.0\OnlineShop.DTO.dll
+C:\Users\Vlad\Source\Repos\VladislavG123\OnlineShopTemplate\OnlineShop.DTO\bin\Debug\netcoreapp3.0\OnlineShop.DTO.pdb
+C:\Users\Vlad\Source\Repos\VladislavG123\OnlineShopTemplate\OnlineShop.DTO\obj\Debug\netcoreapp3.0\OnlineShop.DTO.csprojAssemblyReference.cache
+C:\Users\Vlad\Source\Repos\VladislavG123\OnlineShopTemplate\OnlineShop.DTO\obj\Debug\netcoreapp3.0\OnlineShop.DTO.AssemblyInfoInputs.cache
+C:\Users\Vlad\Source\Repos\VladislavG123\OnlineShopTemplate\OnlineShop.DTO\obj\Debug\netcoreapp3.0\OnlineShop.DTO.AssemblyInfo.cs
+C:\Users\Vlad\Source\Repos\VladislavG123\OnlineShopTemplate\OnlineShop.DTO\obj\Debug\netcoreapp3.0\OnlineShop.DTO.dll
+C:\Users\Vlad\Source\Repos\VladislavG123\OnlineShopTemplate\OnlineShop.DTO\obj\Debug\netcoreapp3.0\OnlineShop.DTO.pdb
