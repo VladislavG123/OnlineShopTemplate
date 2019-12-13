@@ -10,7 +10,7 @@ namespace OnlineShop.Services
 {
     public class MobizoneSmsService : ISmsService
     {
-        public async Task<SmsServiceResponseDTO> SendVerificationCode(string phoneNumber, string code)
+        public void SendVerificationCode(string phoneNumber, string code)
         {
             string url = $"https://api.mobizon.kz/service/message/sendsmsmessage?" +
                 $"recipient={phoneNumber}&text=Code: {code}" +
@@ -18,10 +18,9 @@ namespace OnlineShop.Services
 
             using (var webClient = new WebClient())
             {
-                webClient.DownloadStringAsync(new System.Uri(url));
+                webClient.DownloadString(new System.Uri(url));
                 var response = new SmsServiceResponseDTO();
                 response.StatusCode = 200;
-                return response;
             }
 
         }

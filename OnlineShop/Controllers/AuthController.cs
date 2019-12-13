@@ -14,12 +14,12 @@ namespace OnlineShop.Web.Controllers
     public class AuthController : ControllerBase
     {
         private readonly UserService userService;
-        private readonly ISmsService twilioSmsService;
+        private readonly ISmsService smsService;
 
-        public AuthController(UserService userService, ISmsService twilioSmsService)
+        public AuthController(UserService userService, ISmsService smsService)
         {
             this.userService = userService;
-            this.twilioSmsService = twilioSmsService;
+            this.smsService = smsService;
         }
 
         [HttpPost]
@@ -40,12 +40,19 @@ namespace OnlineShop.Web.Controllers
             return Ok(new { token });
         }
 
+        /*[HttpGet]
+        public IActionResult Test()
+        {
+            string text = "asd";
+            return Ok(new { text });
+        }*/
+
         [HttpGet]
         public async Task<IActionResult> SendCode(string phoneNumber)
         {
             var code = new Random().Next(1000, 9999).ToString();
 
-            await twilioSmsService.SendVerificationCode(phoneNumber, code);
+            smsService.SendVerificationCode(phoneNumber, code);
 
             await userService.SaveCodeToUser(phoneNumber, code);
 

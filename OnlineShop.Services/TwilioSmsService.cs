@@ -11,7 +11,7 @@ namespace OnlineShop.Services
 {
     public class TwilioSmsService : ISmsService
     {
-        public Task<SmsServiceResponseDTO> SendVerificationCode(string phoneNumber, string code)
+        public void SendVerificationCode(string phoneNumber, string code)
         {
             const string accountSid = "ACa902f79f4063bfa4e4da8b2930f931b2";
             const string authToken = "55ce5d687fbdf981f550141835655fbf";
@@ -25,7 +25,6 @@ namespace OnlineShop.Services
             );
 
 
-            return Task.FromResult(new SmsServiceResponseDTO { StatusCode = 200, Message = "Сообщение успешно отправлено" });
         }
     }
 }

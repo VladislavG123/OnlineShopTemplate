@@ -8,7 +8,7 @@ namespace OnlineShop.Services.Interfaces
 {
     public interface ISmsService
     {
-        Task<SmsServiceResponseDTO> SendVerificationCode(string phoneNumber, string code);
+        void SendVerificationCode(string phoneNumber, string code);
         
     }
 }
